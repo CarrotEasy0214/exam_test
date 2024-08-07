@@ -33,7 +33,7 @@ function App() {
       {/* <ProductUpload></ProductUpload> */}
       {/* <ProductList></ProductList> */}
       {/* <MediumBtn textColor="white" bgColor="blue">
-        포인트 충전
+        포인트 충전dd
       </MediumBtn> */}
       {/* <SmallButton textColor="white" bgColor="white">
         거래상세
@@ -58,10 +58,7 @@ function App() {
         {/* <Route path="/regist" Component={Regist}></Route> */}
         <Route path="/orderList" Component={OrderListPage}></Route>
         <Route path="/orderListSelled" Component={OrderListPageSelled}></Route>
-        <Route
-          path="/orderListSelling"
-          Component={OrderListPageSelling}
-        ></Route>
+        <Route path="/orderListSelling" Component={OrderListPageSelling}></Route>
         <Route path="/reviewHistory" Component={ReviewHistory}></Route>
         <Route path="/Dib" Component={Dib}></Route>
         <Route path="/orderDetail/:productId" Component={ProductDetail}></Route>
@@ -75,10 +72,7 @@ function App() {
         <Route path="/productbuy" Component={Buy}></Route>
         <Route path="/productlist" Component={ProductList}></Route>
         <Route path="/delivery" Component={DeliveryListPage}></Route>
-        <Route
-          path="/deliverydetail/:productId"
-          Component={DeliveryDetail}
-        ></Route>
+        <Route path="/deliverydetail/:productId" Component={DeliveryDetail}></Route>
         <Route path="/pointcharge" Component={PointPageMain}></Route>
       </Routes>
     </div>
